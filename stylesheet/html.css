@@ -33,6 +33,14 @@
 a {
 	color: white
 }
+section {
+	float: left;
+	padding-left: 110px;
+	padding-top: 88px;
+    text-align: center;
+    width: 350px;
+	height: 300px;
+}
 h1{
 	color: goldenrod;
 	font-size: 27px;
@@ -49,19 +57,6 @@ h2{
 	font-weight: 700;
 	font-style: bold; 
 }
-
-section {
-	float: left;
-	padding-left: 110px;
-	padding-top: 88px;
-    text-align: center;
-    width: 350px;
-	height: 300px;
-}
-figure{
-	float: right;
-	padding-top: 50px;	
-}
 p { 
 	font-size: 123%;
 	color: gray;
@@ -69,6 +64,8 @@ p {
 	font-weight: 400;
 	font-style: normal;
   }
+
+
 .link{
 	color:goldenrod;
 	text-decoration: underline;
@@ -78,6 +75,11 @@ p {
 	font-weight: 400;
 	font-style: normal;
 }
-figure2{
+figure{
 	float: none;
+}
+figure2{
+	float: right;
+	padding-top: 50px;
+	padding-right: 50px;
 }
